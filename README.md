@@ -32,13 +32,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM, or Document Object Model, is an interface that we as programmers can use to interact
+with webpages. The DOM gives us access to read and manipulate the page's content, structure,
+and style.
+
 2. What is an event?
+
+Events are sent when the given event type is triggered. These events allow the developer
+to execute code when something specific happens.
 
 3. What is an event listener?
 
+An event listener is a piece of code that listens or waits for an event to be triggered.
+Event listeners then call a callback function when they are triggered.
+
 4. Why would we convert a NodeList into an Array?
 
+NodeLists are Array-like, however, they don't have all of the same methods that Arrays
+have. So converting a NodeList to an Array allows us to use Array methods and properties.
+
 5. What is a component?
+
+Components are reusable pieces of code that can be used to build elements sharing
+functionality and styling.
 
 ### Git Set up
 
