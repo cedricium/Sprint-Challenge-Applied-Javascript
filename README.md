@@ -32,13 +32,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM, or Document Object Model, is an interface that we as programmers can use to interact
+with webpages. The DOM gives us access to read and manipulate the page's content, structure,
+and style.
+
 2. What is an event?
+
+Events are sent when the given event type is triggered. These events allow the developer
+to execute code when something specific happens.
 
 3. What is an event listener?
 
+An event listener is a piece of code that listens or waits for an event to be triggered.
+Event listeners then call a callback function when they are triggered.
+
 4. Why would we convert a NodeList into an Array?
 
+NodeLists are Array-like, however, they don't have all of the same methods that Arrays
+have. So converting a NodeList to an Array allows us to use Array methods and properties.
+
 5. What is a component?
+
+Components are reusable pieces of code that can be used to build elements sharing
+functionality and styling.
 
 ### Git Set up
 
@@ -51,11 +67,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
+* [x] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [x] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+* [x] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
 
 ## Stretch Problems
 
